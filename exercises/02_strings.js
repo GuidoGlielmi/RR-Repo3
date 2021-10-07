@@ -31,9 +31,9 @@ var substringEnd = stringC.substring(stringC.length - 3, stringC.length);
 console.log(substringEnd);
 
 var stringD = 'variable de diez caracteres';
-var capitalizedString = stringD.charAt(0).toUpperCase() + stringD.slice(1);
+var capitalizedString = stringD.substring(0,1).toUpperCase() + stringD.substring(1,stringD.length).toLowerCase();
 console.log(capitalizedString);
 
 var stringE = 'variable de diez caracteres';
 var firstWhiteSpace = stringE.indexOf(" ");
-console.log(firstWhiteSpace); 
+console.log(firstWhiteSpace);
