@@ -25,3 +25,7 @@ function sum2(a,b) {
     }
     return a + b;
 }
+
+function validateInteger (int) {
+    return Number.isInteger(int);
+}
