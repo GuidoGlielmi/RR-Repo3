@@ -29,3 +29,14 @@ function sum2(a,b) {
 function validateInteger (int) {
     return Number.isInteger(int);
 }
+
+function sum3(a,b) {
+    if(typeof a !== 'number' || typeof b !== 'number') {
+        console.log('Error: Uno de los parámetros ingresados no es un número');
+        return NaN;
+    }
+    if(!(Number.isInteger(a)&&Number.isInteger(b))) {
+        console.log('Se han ingresado números no enteros. La suma se hará con valores redondeados')
+    }
+    return Math.floor(a) + Math.floor(b);
+}
