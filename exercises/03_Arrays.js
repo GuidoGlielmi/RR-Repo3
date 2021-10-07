@@ -18,3 +18,7 @@ console.log(myArray.sort());
 myArray.push('elemento1');
 myArray.unshift('elemento2');
 console.log(myArray);
+
+myArray.shift();
+myArray.pop();
+console.log(myArray);
