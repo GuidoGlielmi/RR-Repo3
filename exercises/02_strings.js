@@ -19,17 +19,21 @@
 // letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el
 // operador +).
 
-var string='variable de diez caracteres';
-console.log(string=string.toUpperCase());
+var string = 'variable de diez caracteres';
+console.log(string = string.toUpperCase());
 
-var stringB='variable de diez caracteres';
-var substring=stringB.substring(0,5);
+var stringB = 'variable de diez caracteres';
+var substring = stringB.substring(0, 5);
 console.log(substring);
 
-var stringC='variable de diez caracteres';
-var substringEnd=stringC.substring(stringC.length-3,stringC.length);
+var stringC = 'variable de diez caracteres';
+var substringEnd = stringC.substring(stringC.length - 3, stringC.length);
 console.log(substringEnd);
 
-var stringD='variable de diez caracteres';
-var capitalizedString=stringD.charAt(0).toUpperCase() + stringD.slice(1);
+var stringD = 'variable de diez caracteres';
+var capitalizedString = stringD.charAt(0).toUpperCase() + stringD.slice(1);
 console.log(capitalizedString);
+
+var stringE = 'variable de diez caracteres';
+var firstWhiteSpace = stringE.indexOf(" ");
+console.log(firstWhiteSpace); 
