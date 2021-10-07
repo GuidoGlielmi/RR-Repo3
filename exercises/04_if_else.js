@@ -17,3 +17,27 @@ if (Math.random() > 0, 5) {
 else {
     console.log('Lower than 0,5');
 }
+
+var Age = Math.random()*100;
+console.log(Age);
+if(Age > 75){
+    console.log('Anciano');
+}
+else if (Age > 60) {
+    console.log('Adulto mayor');
+}
+else if (Age > 30) {
+    console.log('Adulto');
+}
+else if (Age > 19) {
+    console.log('Joven');
+}
+else if (Age > 12) {
+    console.log('Adolescente');
+}
+else if (Age > 1) {
+    console.log('Nino');
+}
+else if (Age >= 0) {
+    console.log('Bebe');
+}
