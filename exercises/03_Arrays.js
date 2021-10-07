@@ -14,3 +14,7 @@ console.log(myArray[4]);
 console.log(myArray[10]);
 
 console.log(myArray.sort());
+
+myArray.push('elemento1');
+myArray.unshift('elemento2');
+console.log(myArray);
