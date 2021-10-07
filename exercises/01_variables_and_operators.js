@@ -8,3 +8,8 @@ var variable1 = 4;
 var variable2 = 3;
 var sum = variable1 + variable2;
 console.log(sum);
+
+var string1 = 'string';
+var string2 = 'string';
+var concat = string1 + string2;
+console.log(concat);
