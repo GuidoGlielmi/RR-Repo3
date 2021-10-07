@@ -26,3 +26,9 @@ for (var i = 0; i <= myArray.length - 1; i++) {
     sentence[i] = myArray[i];
 }
 console.log('alerta: ' + sentence);
+
+var myArray2 = [];
+for (var i = 0; i < 10; i++) {
+    myArray2[i] = i;
+}
+console.log(myArray2);
