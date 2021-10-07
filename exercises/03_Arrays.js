@@ -22,3 +22,5 @@ console.log(myArray);
 myArray.shift();
 myArray.pop();
 console.log(myArray);
+
+console.log(myArray.reverse());
