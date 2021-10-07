@@ -10,7 +10,12 @@
 // haber 10 elementos dentro del array, desde el número 0 hasta al número 9. Mostrar
 // por la consola del navegador el array final (utilizar console.log).
 
-var myArray = ['este', 'array', 'contiene', 'cinco', 'palabras'];
+var myArray = ["este", "array", "contiene", "cinco", "palabras"];
 for (var i = 0; i <= myArray.length - 1; i++) {
-    console.log('alerta: ' + myArray[i]);
+  console.log("alerta: " + myArray[i]);
+}
+
+for (var i = 0; i <= myArray.length - 1; i++) {
+  myArray[i] = myArray[i].substring(0, 1).toUpperCase() + myArray[i].substring(1, myArray[i].length);
+  console.log("alerta: " + myArray[i]);
 }
