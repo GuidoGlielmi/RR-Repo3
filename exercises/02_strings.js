@@ -25,3 +25,7 @@ console.log(string=string.toUpperCase());
 var stringB='variable de diez caracteres';
 var substring=stringB.substring(0,5);
 console.log(substring);
+
+var stringC='variable de diez caracteres';
+var substringEnd=stringC.substring(stringC.length-3,stringC.length);
+console.log(substringEnd);
