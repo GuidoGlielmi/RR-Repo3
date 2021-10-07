@@ -25,7 +25,7 @@ console.log(myArray);
 
 console.log(myArray.reverse());
 
-var myArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+myArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 var myString = myArray.join(" - ");
 var myArrayCopy = myArray.slice(4,11);
 console.log(myString);
