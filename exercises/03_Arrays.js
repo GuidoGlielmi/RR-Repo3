@@ -12,3 +12,5 @@
 var myArray = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log(myArray[4]);
 console.log(myArray[10]);
+
+console.log(myArray.sort());
