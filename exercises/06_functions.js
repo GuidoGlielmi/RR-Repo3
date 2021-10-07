@@ -17,3 +17,11 @@ function sum(a,b) {
 }
 var sum = sum(5,8);
 console.log(sum);
+
+function sum2(a,b) {
+    if(typeof a !== 'number' || typeof b !== 'number') {
+        console.log('Error: Uno de los parámetros ingresados no es un número');
+        return NaN;
+    }
+    return a + b;
+}
