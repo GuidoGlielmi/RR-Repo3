@@ -36,4 +36,11 @@ console.log(capitalizedString);
 
 var stringE = 'variable de diez caracteres';
 var firstWhiteSpace = stringE.indexOf(" ");
-console.log(firstWhiteSpace);
+console.log(firstWhiteSpace); 
+
+var stringF = 'sobresaturacion interminable';
+var pascalCase = stringF.substring(0,1).toUpperCase();
+pascalCase += stringF.substring(1,stringF.indexOf(" ")+1).toLowerCase();
+pascalCase += stringF.substring(stringF.indexOf(" ")+1,stringF.indexOf(" ")+2).toUpperCase();
+pascalCase += stringF.substring(stringF.indexOf(" ")+2,stringF.length).toLowerCase();
+console.log(pascalCase);
