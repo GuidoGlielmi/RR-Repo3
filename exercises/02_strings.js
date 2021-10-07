@@ -29,3 +29,7 @@ console.log(substring);
 var stringC='variable de diez caracteres';
 var substringEnd=stringC.substring(stringC.length-3,stringC.length);
 console.log(substringEnd);
+
+var stringD='variable de diez caracteres';
+var capitalizedString=stringD.charAt(0).toUpperCase() + stringD.slice(1);
+console.log(capitalizedString);
