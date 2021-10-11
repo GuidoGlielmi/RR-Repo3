@@ -24,7 +24,6 @@ function validateInteger(int) {
   return Number.isInteger(int);
 }
 
-
 // d) A la función suma del ejercicio 6b) agregarle una llamada que valide que los números
 // sean enteros. En caso que haya decimales mostrar un alerta con el error y retorna el
 // número convertido a entero (redondeado).
